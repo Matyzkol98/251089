@@ -25,7 +25,6 @@ HEADERS += \
     plan_lekcji.h
 
 FORMS += \
-    dodawanie_ucznia.ui \
     plan_lekcji.ui
 
 # Default rules for deployment.
