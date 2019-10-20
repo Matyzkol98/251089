@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dodaj_ucznia</class>
+ <widget class="QWidget" name="dodaj_ucznia">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1072</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dodawanie ucznia i planowanie</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>570</y>
+     <width>1051</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>Zamknij</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>10</y>
+     <width>871</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>09:15 - 10:00</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>10:15 - 11:00</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>11:15 - 12:00</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>12:15 - 13:00</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>13:15 - 14:00</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>14:15 - 15:00</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Poniedziałek</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Wtorek</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Środa</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Czwartek</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Piątek</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>30</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Imię</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nazwisko</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>120</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Klasa</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>110</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
