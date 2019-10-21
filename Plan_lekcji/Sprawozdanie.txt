@@ -1,0 +1,4 @@
+Zrobić backend: 
+zaprojektować bazę
+odczyt z bazy do programu
+zapis do bazy
