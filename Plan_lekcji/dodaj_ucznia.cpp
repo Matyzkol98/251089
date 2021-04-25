@@ -15,5 +15,10 @@ dodaj_ucznia::~dodaj_ucznia()
 
 void dodaj_ucznia::on_pushButton_2_clicked()
 {
+     close()
+}
+
+void dodaj_ucznia::on_pushButton_3_clicked()
+{
      close();
 }
